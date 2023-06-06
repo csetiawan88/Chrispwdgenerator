@@ -25,9 +25,12 @@
 
 
 ## Deplyment
-URL: 
+URL: https://csetiawan88.github.io/Chrispwdgenerator/
 GITHUB: https://github.com/csetiawan88/Chrispwdgenerator
 
+## Screen shot:
+screenshot.jpg
+(Inside asset folders)
 
 
 
