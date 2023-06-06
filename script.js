@@ -8,8 +8,8 @@ const upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","
 const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 const specialCharacters = ['@','%','+','\\','/',"'",'!','#','$','^','?',':',',',')','(','}','{',']','[','~','-','_','.'];
 
+var characterLength = 10;
 const length = characterLength;
-
 const allChars = upperCase + lowerCase + numbers + specialCharacters;
 
 const passwordText = document.getElementById('password');
@@ -18,7 +18,7 @@ const passwordText = document.getElementById('password');
 //   var passwordText = [];
 //   console.log("you have clicked the button")
 
-
+// Functions for Password generate.
 function generatePassword()  {
   let password = "";
   password += upperCase[Math.floor(Math.random() * upperCase.length)];
@@ -29,7 +29,7 @@ function generatePassword()  {
   while(characterLength > password.length){
     password += allChars[Math.floor(Math.random() * allChars.length)];
   }
-  passwordText.value = password;
+  return password;  
 }
 
 
@@ -64,26 +64,17 @@ function generatePassword()  {
       confirmSpecialCharacters = confirm ('Would you like to have SPECIAL CHARACTERS?');
   
 
-//
-//  2. Validate the input.
 
 
 
-
-//  3. Generate password based on criteria.
+//  2. Generate password based on criteria.
 //      a. input should be validated and at least one character type selected.
 
         if (characterLength === false && confirmLowercase === false && confirmUppercase === false && confirmNumbers === false && confirmSpecialCharacters === false) {
           alert ( "Please ensure to choose at lease one criteria");
         }
-// ////////////////////////////////////////////////   
 
-
-////////////////////////////////////////////////////////
-
-//  4. Display password to the page . will return "password generated"
-
-
+//  5. Display password to the page . 
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();

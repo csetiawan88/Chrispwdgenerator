@@ -1,3 +1,46 @@
+# Module3challenge - 03 JavaScript: Password Generator
+
+
+
+Creating Bareco Portfolio
+## Criteria
+1) Click the button to generate a password.
+    a) do not touch existing mockup html and css.
+    b) only work with the script.js
+2) Prompted for password criteria
+3) Prompted for the length of the password.
+    a) Between 8 and 128 characters
+4) Whether or not to include lowercase, uppercase, numeric, and/or special characters
+5) Input should be validated and at least one character type should be selected
+6) A password is generated that matches the selected criteria
+7) Password is either displayed in an alert or written to the page
+
+## Completed:
+1) I have completed to generate the password based on criteria
+2) I have completed to prompted for password criteria.
+3) I have completed for user to eneter between 8-128 characters for password length
+4) Password length has validation if outside 8-128 characters entered.
+5) I have completed a confirmation to include owercase, uppercase, numeric, and/or special characters
+6) I have added validated to make sure one characters should be selected.
+7) I have generated password based on the criteria and shown on the mockup html.
+
+
+
+## Deplyment
+URL: 
+GITHUB: https://github.com/csetiawan88/Chrispwdgenerator
+
+
+
+
+
+
+
+
+
+
+
+
 # 03 JavaScript: Password Generator
 
 ## Your Task
