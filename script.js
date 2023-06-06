@@ -85,21 +85,12 @@ const specialCharacters = [
   ".",
 ];
 
-// var characterLength = 10;
-// const length = characterLength;
-// const allChars = upperCase + lowerCase + numbers + specialCharacters;
-
-// const passwordText = document.getElementById("password");
-// Define generatePassword() & Test Button
-// function generatePassword() {
-//   var passwordText = [];
-//   console.log("you have clicked the button")
 
 // Functions for Password generate.
 function generatePassword() {
   var characterLength = prompt("Password length between 8 and 128 charactes");
 
-  //      ensure the character length  between 8 - 128 and ensure once character length is selected
+  // Ensure the character length  between 8 - 128 and ensure once character length is selected
   if (characterLength < 8 || characterLength > 128) {
   alert("Please pick a number between 8 and 128 characters")
   return;
@@ -119,8 +110,8 @@ function generatePassword() {
     "Would you like to have SPECIAL CHARACTERS?"
   );
 
-  //  2. Generate password based on criteria.
-  //      a. input should be validated and at least one character type selected.
+  //  Generate password based on criteria.
+  //  Input should be validated and at least one character type selected.
   if (
     confirmLowercase == false &&
     confirmUppercase == false &&
@@ -161,7 +152,7 @@ function generatePassword() {
   return password;
 }
 
-//  5. Display password to the page .
+// Display password to the page .
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
