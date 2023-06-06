@@ -1,8 +1,6 @@
 # Module3challenge - 03 JavaScript: Password Generator
 
 
-
-Creating Bareco Portfolio
 ## Criteria
 1) Click the button to generate a password.
     a) do not touch existing mockup html and css.
